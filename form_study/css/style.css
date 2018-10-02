@@ -1,0 +1,328 @@
+body {
+    margin:0;
+    font-family: 'Roboto Mono', monospace;
+   background-color: black;
+    background-repeat: no-repeat; 
+        text-decoration: none;
+    
+ /*   background-image: url("/ballet.JPG"); */
+   background-position:center;
+    color: white;
+
+}
+
+.splash-image-aspects {
+    margin-top:-1.2%;
+    padding: 0;
+    background-image: url("/balletback.jpg");
+    background-position: 250px; 
+    height: 45vh;
+    width: 100vw;
+    
+}
+
+
+.splash-image-personal {
+    margin-top:-1.2%;
+    padding: 0;
+   background-image: url("/ballet.JPG");
+    height: 45vh;
+    width: 100vw;
+    
+}
+
+.splash-image-injury {
+    margin-top:-1.2%;
+    padding: 0;
+    background-image: url("/ballerinaLED.jpg");
+    height: 45vh;
+    width: 100vw;
+    
+    
+}
+
+
+
+.home-logo {
+    display: block;
+    z-index: 100p;
+    margin: 10px;
+}
+
+.h1 {
+    color: white;
+}
+
+ul.top-nav li {
+    margin: 10px;
+    float: right;
+    list-style-type: none;
+    letter-spacing: .09em;
+    padding: 10px;
+    width: 20vw;
+    margin-top: 150px;
+}
+
+ul{
+    
+}
+
+li {
+    display: list-item;
+    text-align: center;
+}
+
+.grid-injury-aspects, .container-injury-two {
+    width: 100vw;
+    
+}
+
+
+
+.container-injury, {
+    padding: 5px;
+    margin: 10px auto;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+
+.container-personal {
+    padding: 5px;
+    margin: 5px auto;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.container-aspects {
+    padding: 5px;
+    margin: 10px auto;
+    height: 100vh;
+    width: 100%;
+    text-overflow: clip;
+    display: block;
+}
+
+ .container-injury-columns img {
+     padding: 1.5vw;
+     height: auto;
+     max-width: 100vw;
+     display: inline;
+        
+    }
+
+ .container-personal-columns img {
+     padding: 1.5vw;
+     height: auto;
+    width: 40vw;
+     display: inline;
+        
+    }
+
+.container-personal-columns{
+         max-width: 100vw;
+    
+}
+
+/*aspects */
+.left-block {
+    width: 100vw;
+    height: 30vw;
+    background: white;
+    color: black;
+    display: block;
+}
+
+.left-block p {
+    padding: 2vh;
+}
+
+
+/* Referenced w3 schools for Video SPalsh */
+#myVideo {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    min-height: 50%;
+    z-index: 10;
+}
+
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: -10;
+    
+}
+
+.grid-gallery {
+    width: 50vw;
+    height: 30vh;
+}
+
+
+
+
+h2 {
+    
+    color: black;
+    font-size: 3em;
+        
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.grid-container {
+    background-image: url("/ballerinaaa.gif");
+    grid-gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    margin: 10px auto;
+
+}
+
+.grid-container-gallery{
+    background:black;
+    display: block;
+}
+
+img {
+    width: 30vw;
+    height: auto;
+    padding: 10px;
+    float: left;
+}
+
+.grid-item-heading {
+    height: 10vh;
+    /*background-image: url("/docs/dust.jpeg");*/
+    /*background-position: 5px -150px; */
+    opacity: 0.9;
+    z-index: 10;
+  
+}
+
+.grid-item-work {
+    height: 10vh;
+    /*background-image: url("/docs/dust.jpeg");*/
+    /*background-position: 5px -150px; */
+    opacity: 0.9;
+    z-index: 10;
+    text-decoration: none;
+
+}
+
+.grid-item-about {
+    height: 10vh;
+    /* background-image: url("/docs/herb.JPG");*/
+   /* background-position:center;*/
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.grid-item-contact {
+    height: 10vh;
+   <!-- background-image: url("/docs/al.jpeg"); -->
+    background-position: 5px -150px;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+
+a:hover {
+  background-color:#efefef;
+  opacity: 10%;
+}
+
+a:link {
+    color: white;
+    }
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+a:active {
+    
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 680px) {
+    ul.top-nav li{
+        display: none;
+        
+    }
+    
+    .splash-image-aspects, .splash-image-injury, .splash-image-personal {
+    position: absolute;
+    margin-top:-1.2%;
+    padding: 0;
+    background-repeat: no-repeat;     
+    height: 300px;;
+    width: 100vw;
+    display: absolute;
+    overflow: hidden;
+    text-overflow: hidden;
+    left: 0;
+    top:0;
+}
+    
+    .container-injury {
+        margin: 10px;
+        
+       
+    }
+    
+
+
+ @media screen and (max-width: 600px) {
+  #java {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+    ul.top-nav li.icon {
+        display: inline-block;
+        float: right;
+    }
+}
+@media only screen and (max-width: 6  80px) {
+    ul.top-nav.responsive {
+    
+    }
+    ul.top-nav.responsive li.icon{
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    ul.top-nav.responsive li{
+        float:none;
+        display: inline;
+    }
+    ul.top-nav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+}
+
