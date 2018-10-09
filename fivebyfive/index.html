@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Herbert Ramirez 5x5</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <ul class="top-nav" id="my-top-nav">
+                    <li></li>
+                    <li><a class="active" href="#home">HOME</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li class="icon"><a href="javascript:void(0);" style="font-size:2.25em;" onclick="myFunction()" >&#9776;</a></li>
+                </ul>
+            </nav>
+            
+            <div class="intro" style="background: white;
+                                      padding: 10px;
+                                      align-content: left;">
+            <h1>5x5 Assignment</h1>
+            <p> For 5 days continuous days I recreated past memories using multiple 3D softwares. I set contraints on the design by requiring myself to make them as close to real as I could based around a limited amount of time. From modeling physical structures, to sunrise and sunset I tried to recreate some of my favorite places/memories from living in the Bay area.</p> 
+            </div>
+            
+            <div class="content-column" style="background: black; 
+                                               color: white;">
+                <h2>Day 1</h2>
+                <h3>Bay Bridge Modeling and Arnold Rendering</h3>
+                <div>
+                    <img src="images/dayone.png" alt="Comparison of 3dmodel and render">
+                     <img src="images/bayrender.png" alt="final render of sunrise">
+                </div><!-- end of image container -->
+                <p>
+             On the first day I did strictly 3d modeling in Maya. I 3d modeled part of the baybridge based off of google 2D images. I used the images as reference to build a similar incomplete structure of the bridge. I then used basic Arnold Materials to color and fully render.
+                </p>
+            </div><!-- end of content column -->
+            
+            
+  
+             <div class="content-column-2" style="background: black; 
+                                          color: white;">
+                <h2>Day 2</h2>
+                <h3>Sutro Tower in Maya</h3>
+                <div>
+                    <img src="images/day2.png" alt="Comparison of 3dmodel and render">
+                     <img src="images/day2process.png" alt="final render of sunrise">
+                </div><!-- end of image container -->
+                <p>
+             On day 2 I designed my commute back to SF from work. Every day for over a year I would see the sun set over Twin peaks. I 3D modeled the Sutro tower and overlayed it in front of the sunset.Every morning leaving for work and returning from work I'd see the sun over the bay.
+                </p>
+            </div><!-- end of content column -->
+            
+            
+            
+            <div class="content-column-3">
+                <h2>Day 3</h2>
+                <h3>Twin peaks Terrain modeling and building</h3>
+                <div>
+                    <img src="images/day3.png" alt="place holder image">
+                    <img src="images/day3process.png" alt="place holder image">
+                </div><!-- end of image container -->
+                <p>
+             Day three was focused on integrating the Maya models I made into Unity. I also focused on building terrain using Unity's terrain builder tools. I referenced google maps and spent a couple of hours trying to use a paint brush to depict the hills that make up the actual area of twin peaks.
+                </p>
+            </div><!-- end of content column -->
+            
+            
+               <div class="content-column-4">
+                <h2>Day 4</h2>
+                <h3>Sunrise and Sunset</h3>
+                <div>
+                    <img src="images/day4.png" alt="place holder image">
+                    <img src="images/day4process.png" alt="place holder image">
+                </div><!-- end of image container -->
+                <p>
+               On day four I stepped away from modeling structures to learning C#. I created a basic function that makes the sun go around based on deltaTime. That way the sun is rising and setting every couple of seconds. IT gives the illusion of sunrise/sunset
+                </p>
+            </div><!-- end of content column -->
+        
+        
+            
+        </div><!-- end of container -->
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("my-top-nav");
+                if (x.className === "top-nav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "top-nav";
+                }
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
